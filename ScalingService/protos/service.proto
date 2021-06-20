@@ -1,0 +1,27 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "ScalingService.Generated";
+
+package proto;
+
+service ScalingService
+{
+	// Simple RPC, handles client request
+	rpc Request(RequestData) returns (ResponseData){}
+}
+
+// The data of the client request
+message RequestData
+{
+	string id = 1;
+
+	int32 tasks = 2;
+
+	bool close = 3;
+}
+
+// The id that the server assigned to the client
+message ResponseData
+{
+	string id = 1;
+}
