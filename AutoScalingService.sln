@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScalingService", "ScalingService\ScalingService.csproj", "{2A4B588B-AF7C-4F2A-A827-9D9110D4A4A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{8F8FC393-BA5A-4FA6-93F8-DCED1E395EAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A4B588B-AF7C-4F2A-A827-9D9110D4A4A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A4B588B-AF7C-4F2A-A827-9D9110D4A4A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A4B588B-AF7C-4F2A-A827-9D9110D4A4A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A4B588B-AF7C-4F2A-A827-9D9110D4A4A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F8FC393-BA5A-4FA6-93F8-DCED1E395EAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F8FC393-BA5A-4FA6-93F8-DCED1E395EAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F8FC393-BA5A-4FA6-93F8-DCED1E395EAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F8FC393-BA5A-4FA6-93F8-DCED1E395EAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C9B9CDC-1763-439A-8BC8-9CFB4BCD197F}
+	EndGlobalSection
+EndGlobal

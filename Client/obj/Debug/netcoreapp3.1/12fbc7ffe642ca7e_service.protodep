@@ -1,0 +1,2 @@
+obj\Debug\netcoreapp3.1\protos/Service.cs \
+obj\Debug\netcoreapp3.1\protos/ServiceGrpc.cs: protos/service.proto
